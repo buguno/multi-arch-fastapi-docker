@@ -15,4 +15,4 @@ USER appuser
 
 EXPOSE 8000
 
-CMD ["python", "run", "main.py"]
+CMD ["fastapi", "run", "main.py"]
