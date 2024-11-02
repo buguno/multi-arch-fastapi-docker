@@ -1,8 +1,6 @@
 name: Docker Build Image
 
 on:
-  workflow_dispatch:
-  workflow_call:
   push:
     branches:
       - master
